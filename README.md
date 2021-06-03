@@ -3,6 +3,8 @@ Viewer for thunar in xfce
 
 I wrote this mainly for Thunar to have a preview function for different files.
 
+Extract pdfjs.tar.gz to the MultiViewer folder.
+
 Create a custom action with the name "Preview" and the command:
 
 change /Path_to/MultiViewer to your path
@@ -21,3 +23,11 @@ Files that can be displayed
 - pdf ["pdf"]
 - image ["png", "jpg", "eps", "gif", "bmp", "tiff", "tif", "jpeg", "svg"]
 - odf ["odt", "doc", "docx"]
+
+You can use it without thunar from command line
+
+Example:
+
+```
+cd /Path_to/MultiViewer && python3 ./MultiViewer.py myfile.png
+```
