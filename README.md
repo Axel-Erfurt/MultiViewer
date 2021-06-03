@@ -5,6 +5,8 @@ I wrote this mainly for Thunar to have a preview function for different files.
 
 Create a custom action with the name "Preview" and the command:
 
+change /Path_to/MultiViewer to your path
+
 ```
 sh -c "cd /Path_to/MultiViewer && python3 ./MultiViewer.py %f"
 ```
