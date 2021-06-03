@@ -1,6 +1,11 @@
 # MultiViewer
 Viewer for thunar in xfce
 
+### Requirements
+
+- python >= 3.6
+- PyQt5
+
 I wrote this mainly for Thunar to have a preview function for different files.
 
 Extract pdfjs.tar.gz to the MultiViewer folder.
