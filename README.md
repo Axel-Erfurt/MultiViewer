@@ -12,6 +12,7 @@ change /Path_to/MultiViewer to your path
 ```
 sh -c "cd /Path_to/MultiViewer && python3 ./MultiViewer.py %f"
 ```
+Then you can right-click "Preview" in thunar
 
 Files that can be displayed
 
