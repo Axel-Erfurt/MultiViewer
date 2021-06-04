@@ -28,7 +28,7 @@ Files that can be displayed
 - html ["html", "htm"]
 - pdf ["pdf"]
 - image ["png", "jpg", "eps", "gif", "bmp", "tiff", "tif", "jpeg", "svg"]
-- odf ["odt", "doc", "docx"]
+- odf ["odt", "doc", "docx", "rtf"]
 
 You can use it without thunar from command line
 
