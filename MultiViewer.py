@@ -8,11 +8,11 @@ infile = sys.argv[1]
 csv = ["csv", "tsv"]
 video = ["mp4", "flv", "mpg", "mpeg", "m4v", "mov", "vob", "mkv"]
 audio = ["mp3", "m4a", "ogg", "flac", "wav", "aif", "aiff"]
-text = ["txt", "rtf", "m3u", "m3u8", "pls", "py", "sh"]
+text = ["txt", "m3u", "m3u8", "pls", "py", "sh"]
 html = ["html", "htm"]
 pdf = ["pdf"]
 image = ["png", "jpg", "eps", "gif", "bmp", "tiff", "tif", "jpeg", "svg"]
-odt = ["odt", "doc", "docx"]
+odt = ["odt", "doc", "docx", "rtf"]
 
 def show_file(infile):
     extension = infile.rpartition(".")[2]
